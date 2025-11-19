@@ -1,0 +1,160 @@
+[Test]
+description = "teste"
+one = "teste1 "
+other = "Teste2 {{.P0}}"
+
+[ParamsError]
+description = "Falha na validação dos parâmetros."
+one = "Falha na validação dos parâmetros."
+other = "Falha na validação dos parâmetros."
+
+[OperationFailed]
+description = "Falha na operação."
+one = "a operação falhou."
+other = "a operação falhou."
+
+[OperationSuccess]
+description = "Sucesso na operação."
+one = "operação realizada com sucesso."
+other = "operação realizada com sucesso."
+
+[ItemExists]
+description = "Item já existe."
+one = "Item já existe."
+other = "Item já existe."
+
+[ItemNotFound]
+description = "Item não encontrado."
+one = "Item não encontrado."
+other = "Item não encontrado."
+
+[NoAccess]
+description = "Sem acesso."
+one = "Sem acesso."
+other = "Sem acesso."
+
+[NeedLogin]
+description = "Necessário login."
+one = "Por favor, faça login primeiro."
+other = "Por favor, faça login primeiro."
+
+[UsernameOrPasswordError]
+description = "Erro de usuário ou senha."
+one = "Erro de usuário ou senha."
+other = "Erro de usuário ou senha."
+
+[SystemError]
+description = "Erro do sistema."
+one = "Erro do sistema."
+other = "Erro do sistema."
+
+[ConfigNotFound]
+description = "Configuração não encontrada."
+one = "Configuração não encontrada."
+other = "Configuração não encontrada."
+
+[OauthExpired]
+description = "Oauth expirado."
+one = "Oauth expirado, por favor tente novamente."
+other = "Oauth expirado, por favor tente novamente."
+
+[OauthFailed]
+description = "Falha no Oauth."
+one = "Falha no Oauth."
+other = "Falha no Oauth."
+
+[OauthHasBindOtherUser]
+description = "Oauth já vinculado a outro usuário."
+one = "Oauth já vinculado a outro usuário."
+other = "Oauth já vinculado a outro usuário."
+
+[ParamIsEmpty]
+description = "Parâmetro vazio."
+one = "{{.P0}} está vazio."
+other = "{{.P0}} está vazio."
+
+[BindFail]
+description = "Falha ao vincular."
+one = "Falha ao vincular."
+other = "Falha ao vincular."
+[BindSuccess]
+description = "Vinculado com sucesso."
+one = "Vinculado com sucesso."
+other = "Vinculado com sucesso."
+[OauthHasBeenSuccess]
+description = "Oauth já foi realizado com sucesso."
+one = "Oauth já foi realizado com sucesso."
+other = "Oauth já foi realizado com sucesso."
+[OauthSuccess]
+description = "Sucesso no Oauth."
+one = "Sucesso no Oauth."
+other = "Sucesso no Oauth."
+[OauthRegisterSuccess]
+description = "Registro Oauth com sucesso."
+one = "Registro Oauth com sucesso."
+other = "Registro Oauth com sucesso."
+[OauthRegisterFailed]
+description = "Falha no registro Oauth."
+one = "Falha no registro Oauth."
+other = "Falha no registro Oauth."
+[GetOauthTokenError]
+description = "Erro ao obter token Oauth."
+one = "Erro ao obter token Oauth."
+other = "Erro ao obter token Oauth."
+[GetOauthUserInfoError]
+description = "Erro ao obter informações do usuário Oauth."
+one = "Erro ao obter informações do usuário Oauth."
+other = "Erro ao obter informações do usuário Oauth."
+[DecodeOauthUserInfoError]
+description = "Erro ao decodificar informações do usuário Oauth."
+one = "Erro ao decodificar informações do usuário Oauth."
+other = "Erro ao decodificar informações do usuário Oauth."
+
+[OldPasswordError]
+description = "Senha antiga incorreta."
+one = "Senha antiga incorreta."
+other = "Senha antiga incorreta."
+
+[DefaultGroup]
+description = "Grupo Padrão"
+one = "Grupo Padrão"
+other = "Grupo Padrão"
+
+[ShareGroup]
+description = "Grupo Compartilhado"
+one = "Grupo Compartilhado"
+other = "Grupo Compartilhado"
+[RegisterClosed]
+description = "Registro fechado."
+one = "Registro fechado."
+other = "Registro fechado."
+
+[CaptchaRequired]
+description = "Captcha necessário."
+one = "Captcha necessário."
+other = "Captcha necessário."
+
+[CaptchaError]
+description = "Erro no Captcha."
+one = "Erro no Captcha."
+other = "Erro no Captcha."
+
+[PwdLoginDisabled]
+description = "Login com senha desativado."
+one = "Login com senha desativado."
+other = "Login com senha desativado."
+
+[CannotShareToSelf]
+description = "Não é possível compartilhar consigo mesmo."
+one = "Não é possível compartilhar consigo mesmo."
+other = "Não é possível compartilhar consigo mesmo."
+
+[Banned]
+description = "Banido."
+one = "Banido."
+other = "Banido."
+
+[RegisterSuccessWaitAdminConfirm]
+description = "Registro realizado com sucesso, aguarde confirmação do admin."
+one = "Registro realizado com sucesso, aguarde confirmação do admin."
+other = "Registro realizado com sucesso, aguarde confirmação do admin."

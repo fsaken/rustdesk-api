@@ -1,4 +1,4 @@
-lang: "zh-CN"
+lang: "pt-BR"
 app:
   web-client: 1  # 1:启用 0:禁用
   register: false #是否开启注册
@@ -43,8 +43,8 @@ postgresql:
   time-zone: "Asia/Shanghai" # Time zone for PostgreSQL connection
 
 rustdesk:
-  id-server: "192.168.1.66:21116"
-  relay-server: "192.168.1.66:21117"
+  id-server: "127.0.0.1:21116"
+  relay-server: "127.0.0.1:21117"
   api-server: "http://127.0.0.1:21114"
   key: ""
   key-file: "/data/id_ed25519.pub"
